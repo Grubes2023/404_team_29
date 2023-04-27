@@ -1,0 +1,106 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Notifications</h1><!--Heading of the page-->
+<br>
+<head>
+     <!-- Including the Bootstrap CSS file for formatting of all bootstrap used-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!---->
+</head>
+<body>
+    
+<!-- Button to trigger the modal, this will be changed whenever we intergrate since it will be triggered by an input from the Machine learning model -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Notification">
+    Demo Notification
+</button>
+
+<!-- Modal from the bootstrap website-->
+<div class="modal fade" id="Notification" tabindex="-1" role="dialog" aria-labelledby="NotificationLabel" aria-hidden="true"><!--This makes the modal fade out, as well as sets it up for the rwst-->
+  <div class="modal-dialog" role="document"> <!--establishes the modal as the just dialog-->
+    <div class="modal-content"> <!--Establishing the modal content-->
+      <div class="modal-header"><!--refrencening the modal header, that will be the top of the modal, as a title-->
+        <h5 class="modal-title" id="NotificationLabel">POSSIBLE DANGER</h5> <!--THe title of the modal,with its label and display in all caps, h5 is a section heading-->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <!--creating the button for the modal that will close it, and show the x on the top right corner-->
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div> <!--Closing the modal notification-->
+      <div class="modal-body"> <!--Creating the modal body-->
+        <div class="alert alert-danger"><!--Using the bootstrap danger alert format to make the modal body red, and stand out-->
+            <div class="row"> <!--Establishing the row for the body of the modal-->
+                <div class="col-md-3">Immediate Threat</div> <!--the column of the notification -->
+                <div class="col-md-3">College Station, TX</div> <!--the column of the notification -->
+                <div class="col-md-3">15:04, 02/15/2020</div> <!--the column of the notification -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal footer  -->
+    <div class="modal-footer"><!--Creating the modal footer-->
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> <!--creating the button for the modal that will close it, and show the close button-->
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> <!--jQuery library-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.14.1/dist/umd/popper.min.js"></script> <!--Popper library, which is a dependency of Bootstrap-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!--Bootstrap JavaScript library-->
+
+    <br>
+    <br><br><br><br><br><br><br><br><br> <!--spacing out the user interface for the table to look the best-->
+    <link rel="stylesheet" type="text/css" href="{%
+        static 'static/website/style.css' %}">  <!--link to the styles on the css-->
+    <div class="table-container"> <!---this creates the table container-->
+        <table class="custom-table"> <!--custom table gives me a custom css or design-->
+            <table class="table"> <!--bootstrap css framework for the table-->
+                <thead> <!--table header of the section-->
+                    <tr> <!-- a header row in the table-->
+                        <th scope="col">#</th> <!--This is one of the headers for the table-->
+                        <th scope="col">Tweet</th>
+                        <th scope="col">Location</th>
+                        <th scope="col">Severity</th>
+                        <th scope="col">Time</th>
+                    </tr>
+                </thead>
+                <tbody> <!--the table body-->
+                    <tr> <!--row within the table-->
+                        <th scope="row">1</th> <!-- defining th row of the table-->
+                        <td>There is a downed power line near the interstate that is sparking!</td> <!--each column in the row, in order of the header-->
+                        <td> College Station, TX</td>
+                        <td>Immediate Threat</td>
+                        <td>15:04, 02/15/2020<td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Wow!!! Big Fire! Hope everyone is okay.</td>
+                        <td> Bryan, TX</td>
+                        <td>Immediate Threat</td>
+                        <td>12:02, 02/19/2020<td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>There is a Squirrel walking on the power line currently.</td>
+                        <td> College Station, TX</td>
+                        <td>Moderate Concern</td>
+                        <td>03:44, 02/30/2020<td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Severe flooding around Texas and University Drive, stay away.</td>
+                        <td> College Station, TX</td>
+                        <td>Immediate Threat</td>
+                        <td>06:37, 02/13/2020<td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Heavy winds appear to make the trees shake and touch the power lines above.</td>
+                        <td> Bryan, TX</td>
+                        <td>Immediate Threat</td>
+                        <td>05:00, 02/17/2020<td>
+                    </tr>
+                </tbody>
+            </table>
+        </table>
+</div>
+{% endblock %}
+
+
+

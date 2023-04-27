@@ -1,0 +1,10 @@
+h1 {
+
+    color:solid black; /*defining the color for the h1 */
+}
+.custom-nav-link {
+  color: solid black; /* Set the desired color for the navbar letters */
+}
+.custom-button {
+  width: 150px; /* set the width to 150 pixels */
+}
