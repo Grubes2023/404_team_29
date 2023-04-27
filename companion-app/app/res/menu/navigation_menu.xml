@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    android:layout_height="match_parent">
+
+    <item
+        android:id="@+id/newzip"
+        android:title="New ZIP Code" />
+
+    <item
+        android:id="@+id/contact"
+        android:title="Contact Page" />
+
+</menu>
