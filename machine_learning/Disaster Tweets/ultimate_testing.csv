@@ -1,0 +1,86 @@
+﻿id,category,tweet,label
+0,lowball,love this snow,0
+1,lowball,brrr. I moved to Texas to escape the cold,0
+2,lowball,cold front moving in,0
+3,lowball,ice forming on the bridge. Be careful out there,0
+4,lowball,violent storms are coming into town tomorrow,1
+5,lowball,destructive and violent winds reported in houston,1
+6,lowball,storm surge reported near the Texas coastline,1
+7,lowball,breaking: a magnitude 7.2 earthquake reported in San Jose,1
+8,lowball,wind advisory reported in ben county,1
+9,lowball,breaking: a car has crashed into some electrical poles,2
+10,lowball,use caution near the intersection of 199 and 238. #wiredown # violentwind # heavywind,2
+11,lowball,Hurricane Mica has knocked out power to thousands of residents in miami,2
+12,lowball,wildfire kita is nearing the power station in Jackson,2
+13,lowball,watch as residents attempt to escape the horrific wildfire,2
+14,lowball,the camp wildfire is NOT contained and is spreading rapidly,2
+15,lowball,A tornado has been spotted in the northern part of Tarrant County,2
+16,moderate,"a new painting : God's wrath. Depicting a fierce rainstorm, it shows his awesome power",0
+17,moderate,"Oh, please keep raining. The lakes have been dry for way to long.",0
+18,moderate,Snow just keeps falling. Keep safe,0
+19,moderate,lots of reports of lightning reported in the niagra area,1
+20,moderate,the fire in tri county is still burning,1
+21,moderate,flash flood warning for the dallas county. Rain is falling at a high rate. Be careful out there,1
+22,moderate,"dallas, get ready to experience a severe flash flood",1
+23,moderate,what was that loud boom. Woke me up #thunderstorm,2
+24,moderate,Warning for dallas county: heavy winds and heavy rains on the way,2
+25,moderate,heavy wind gusts reported near power lines,2
+26,difficult,this concert is lit af,0
+27,difficult,Hurricanes scored 38 points against the dallas mavericks,0
+28,difficult,"5 years ago, tropical storm uri devastated Texas",0
+29,difficult,Love the new barbeque pit. It smokes brisket perfectly a gets a fire roaring hot for some burgers,0
+30,difficult,God is in the rain. #rain # violentstorm,0
+31,difficult,there is too much rain,0
+32,difficult,Drivers stranded on the highway due to the ongoing blizzard,1
+33,difficult,a wind advisory has just been issued for the city of manhatton,2
+34,dataset,"#BREAKING | People ran for cover after 6.4 and 5.8-magnitude earthquakes shook #Turkeyâ€™s southern Hatay province, two weeks after massive quakes hit region  #TurkeyEarthquake #earthquake #Adana #Turkey #TurkeyQuake #TurkeySyria #Hatay  https://t.co/IdXFQUqFgJ",2
+35,dataset,"3 killed, 213 injured as two earthquakes shatter lives in Turkey  Read @ANI Story | https://t.co/R3VI9gQ1XG #TurkeyEarthquake #Earthquake #Syria https://t.co/81gU3XeG6G",0
+36,dataset,ðŸ””#Earthquake (#deprem) M2.7 occurred 28 km W of #Antioch (#Turkey) 22 min ago (local time 23:53:42). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/0FWaAqZfUF ðŸ–¥https://t.co/I1xTBn4o8I https://t.co/xY0Crd4C8S,1
+37,dataset,"A 6.4-magnitude #earthquake on Monday rocked #Turkey's southern province of Hatay and northern Syria, killing three people and sparking fresh panic after a February 6 tremor that left nearly 45,000 dead in both countries. https://t.co/ipSLBEXsOY",0
+38,dataset,"A new 6.3 magnitude #earthquake hit the Turkish province of #Hatay on the border with #Syria collapsing several buildings on Feb. 20. This comes two weeks after a massive #tremor claimed the lives of more than 45,000 people in both countries. #CGTNAmerica https://t.co/x4PvpDxHq7",0
+39,dataset,Mere Allah please reham kar Turkey par ðŸ¤²ðŸ»â¤ï¸ #Turkey #earthquake,0
+40,dataset,"ðŸ””#Earthquake (#deprem, #Ø²Ù„Ø²Ø§Ù„) M3.1 occurred 16 km S of #Antioch (#Turkey) 7 min ago (local time 23:36:13). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/CqlDRts6ef ðŸ–¥https://t.co/05z2WsCiG5 https://t.co/37DNazh0A4",2
+41,dataset,"ðŸ””#Earthquake (#deprem, #Ø²Ù„Ø²Ø§Ù„) M3.0 occurred 11 km SE of #Antioch (#Turkey) 11 min ago (local time 23:20:50). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/PrhN9KcQ3o ðŸ–¥https://t.co/wpicnH0H6N https://t.co/ioitqKZc6V",2
+42,dataset,"3 people are trapped inside. Movers who were working with the house owner to move belongings out of the building when the quake struck tonight. Owner rescued. Ongoing search &amp; rescue with AFAD, police, military, miners all taking part in the operation.#Turkey #earthquake #deprem https://t.co/0gH9jk2P7l",0
+43,dataset,ðŸ””#Earthquake (#deprem) M2.9 occurred 11 km E of #Antioch (#Turkey) 6 min ago (local time 23:23:47). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/Uhp9KelZy4 ðŸ–¥https://t.co/Hj1pfO8kA5 https://t.co/pfBe1ldaQb,2
+44,dataset,"2/2 Our teams are working to transport the injured to hospitals, inspect the affected areas, and remove rubble to open roads for pedestrians and ambulances. #Syria #earthquake https://t.co/GQGJm1Lq1J",0
+45,dataset,"1/2- 130+ civilians  injured in NW #Syria with cases of fractures, bruises, fainting, and fear &amp; panic as a result of the #earthquake that struck the region this evening, Monday, February 20. A number of buildings damaged of collapsed walls and buildings in the affected areas. https://t.co/IZfAo50XdY",0
+46,dataset,"There are about 5.4 million children in #Turkiyeâ€™s #earthquake-hit provinces, and of those, 2.5 million are in need of humanitarian assistance, according to @UNICEFâ€™s @Paolo_g_Marchi ðŸ‡ºðŸ‡³ #TurkeyEarthquakes @UN #Turkey #depremani #Hatay https://t.co/yaUsGdJWs3",0
+47,dataset,ðŸ””#Earthquake (#deprem) M2.7 occurred 21 km W of #Antioch (#Turkey) 13 min ago (local time 23:05:04). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/HczuVakRto ðŸ–¥https://t.co/DFwQX3W7nN https://t.co/ZwAbQk8Oqp,2
+48,dataset,"â­•ï¸â¤´ï¸ Following the 6.4-magnitude #earthquake which hit #Turkey's southern province of #Hatay tonight,  many residents in the center of #Duhok left their homes, and in #Diyarbakir too. https://t.co/Wc7QH6nF9x",0
+49,dataset,ðŸ””#Earthquake (#deprem) M3.0 occurred 10 km NW of #Antioch (#Turkey) 12 min ago (local time 22:59:40). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/fSoKqRzTiw ðŸ–¥https://t.co/jfYfjnn8xg https://t.co/GvmWSwNiOb,2
+50,dataset,ðŸ””#Earthquake (#deprem) M2.5 occurred 29 km W of #Ä°skenderun (#Turkey) 9 min ago (local time 23:01:10). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/il1lA2cJo9 ðŸ–¥https://t.co/ar5amPO2k2 https://t.co/zOAkyqNEqh,2
+51,dataset,Monday's earthquake was centered in one of the worst-hit regions in the magnitude 7.8 quake that hit on Feb. 6.  #turkey #earthquake #earthquaketurkey  https://t.co/HiS9TbuE9E,0
+52,dataset,"Earthquake survivors in Turkey are searching for their lost pets. With thousands of buildings destroyed and families impacted, an animal rescue group is stepping in to help. #Turkey #earthquake #animal #family #cgtnamerica https://t.co/xEj1qmL8gz",0
+53,dataset,"A state of panic and fear among the people as a result of an #earthquake that struck NW regions of #Syria, today, Monday, February 20. People ran to the open areas and streets, fearing the collapse of the cracked buildings from the previous earthquake. https://t.co/oVikae5AZw",0
+54,dataset,"ðŸ””#Earthquake (#deprem, #Ø²Ù„Ø²Ø§Ù„) M2.9 occurred 5 km N of #Antioch (#Turkey) 12 min ago (local time 22:36:56). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/cuZnCJlKEr ðŸ–¥https://t.co/fn85xyBtl1 https://t.co/yLkANym8Mj",2
+55,dataset,"Video shows a magnitude 6.4 aftershock struck #Turkey, two weeks after a massive #earthquake left tens of thousands of people dead in Turkey and Syria. https://t.co/oQQyvy8riW",1
+56,dataset,"ðŸ””#Earthquake (#deprem, #Ø²Ù„Ø²Ø§Ù„) M3.6 occurred 9 km N of #Antioch (#Turkey) 4 min ago (local time 22:40:03). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/VZeHtWqvI3 ðŸ–¥https://t.co/uOWyhhCF9U https://t.co/XGlOL2dQZi",2
+57,dataset,"1/2- So far, hospitals and medical centers have recorded more than 125 injuries in NW #Syria after todayâ€™s #earthquake, most injuries resulting from fear and panic, jumping from buildings, or fainting cases.",0
+58,dataset,"ðŸ””#Earthquake (#deprem, #Ø²Ù„Ø²Ø§Ù„) M2.8 occurred 7 km N of #Antioch (#Turkey) 5 min ago (local time 22:27:42). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/r0t18GS0AL ðŸ–¥https://t.co/LiIe1bNc9j https://t.co/kA6opOW8UT",2
+59,dataset,"A child has been just received at #Qah hospital, after his heart had stopped beating out of fear of the #earthquake. ER teams immediately provided CPR and electric defibrillation. His heart now is beating again!  #Syria #syriaearthquake #Syrian #earthquake https://t.co/eQMTgTvEHK",0
+60,dataset,"A 6.4 magnitude #earthquake has struck southern #Turkey, weeks after a deadly quake devastated the region.  https://t.co/wEUQkK5ELz",1
+61,dataset,ðŸ””#Earthquake (#deprem) M3.0 occurred 15 km W of #Antioch (#Turkey) 7 min ago (local time 22:21:01). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/uh070pdKou ðŸ–¥https://t.co/QdA966qyM4 https://t.co/XGqzUh9Hk6,2
+62,dataset,Solidarity and strength to the people of #Syria and #TÃ¼rkiye who have been through unimaginable horrors and living in constant fear &amp; uncertainty for the past two weeks. Tonight they find themselves terrified and in danger again ðŸ’” Praying for everyoneâ€™s safety ðŸ™ #earthquake https://t.co/4MepL7gxGq,1
+63,dataset,ðŸ””#Earthquake (#deprem) M2.8 occurred 8 km NW of #Antioch (#Turkey) 5 min ago (local time 22:19:24). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/x2m4n18xrf ðŸ–¥https://t.co/mVI05CyDHm https://t.co/gqUhUCcKH6,2
+64,dataset,#Earthquake 16 km SW of #Antioch (#Turkey) 24 min ago (local time 22:00:13). Updated map - Colored dots represent local shaking &amp; damage level reported by eyewitnesses. Share your experience via: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/WmvhE9Tkmq https://t.co/xGuiEh5MMU,1
+65,dataset,ðŸ””#Earthquake (#deprem) M2.8 occurred 21 km SW of #Antioch (#Turkey) 17 min ago (local time 22:04:32). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/u2sqkLsqM1 ðŸ–¥https://t.co/U7qCxsxorU https://t.co/jOY2QaXLhJ,1
+66,dataset,Look at the powerful vibration as the moment of recent 6.4 Turkey-Syria earthquake gets captured in a security CCTV Cameraâ€¦  #Turkey #Syria #earthquake https://t.co/VjcxHuTWj5,1
+67,dataset,#Earthquake 4 km NW of #Antioch (#Turkey) 6 min ago (local time 22:09:22). Colored dots represent local shaking &amp; damage level reported by eyewitnesses. Share your experience: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/pMPDwau52h https://t.co/K6n6plyTXw,2
+68,dataset,ðŸ””#Earthquake (#deprem) M4.6 occurred 4 km NW of #Antioch (#Turkey) 4 min ago (local time 22:09:22). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/pMPDwau52h ðŸ–¥https://t.co/OzcBmDEPoi https://t.co/SPadCOhjbU,2
+69,dataset,#Breaking: 6.4 magnitude earthquake hits southern Turkey #Turkey #earthquake https://t.co/YDofF1m58t,1
+70,dataset,#Earthquake 18 km SW of #Antioch (#Turkey) 9 min ago (local time 22:00:15). Colored dots represent local shaking &amp; damage level reported by eyewitnesses. Share your experience: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/WmvhE9Tkmq https://t.co/BUqcptCzsS,2
+71,dataset,ðŸ””#Earthquake (#deprem) M4.1 occurred 18 km SW of #Antioch (#Turkey) 7 min ago (local time 22:00:15). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/WmvhE9Tkmq ðŸ–¥https://t.co/c8w1PDwvlx https://t.co/2lguwePoxF,2
+72,dataset,"One more #earthquake reported from #Turkey, #Syria, this time of magnitude 6.4 on #RichterScale.",2
+73,dataset,Buildings collapse following another 6.3 magnitude earthquake in Turkey-Syria region.  #Turkey #Syria #earthquake https://t.co/Z7Jdzu0KTE,1
+74,dataset,#Earthquake 17 km W of #Antioch (#Turkey) 25 min ago (local time 21:36:30). Updated map - Colored dots represent local shaking &amp; damage level reported by eyewitnesses. Share your experience via: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/k9IvRvcp6T https://t.co/KSvobdjyOh,1
+75,dataset,ðŸ””#Earthquake (#Ø²Ù„Ø²Ø§Ù„) M2.9 occurred 23 km W of #Idlib (#Syria) 10 min ago (local time 20:48:41). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/I3yjZVbeSE ðŸ–¥https://t.co/yA7e8jjCIn https://t.co/my12qbMBry,2
+76,dataset,People went into Panic Mode as another  6.4 earthquake hit Turkey-Syria borderâ€¦  #Turkey #Syria #earthquake https://t.co/BQHPkoZ3DB,1
+77,dataset,â—Update:  #Earthquake (#deprem) M3.9 occurred 12 km W of #Antioch (#Turkey) 25 min ago (local time 21:30:51). Info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/8eYXJqSVmf ðŸ–¥https://t.co/XXxPEomh4s https://t.co/n197202H77,1
+78,dataset,ðŸ””#Earthquake (#deprem) M3.3 occurred 11 km NW of #Antioch (#Turkey) 8 min ago (local time 21:47:01). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/mVrZHyrEsY ðŸ–¥https://t.co/NLgNosVIwl https://t.co/rDO7FjuHPQ,2
+79,dataset,Breaking News: Another report showing that a 6.4 magnitude #earthquake just hit Southern #Turkey near #Hatay. Very very sad for a country that hasnâ€™t even gotten over what happened a few weeks ago. God please protect the people of Turkey and everyone around the world.,2
+80,dataset,"Another 6.4-magnitude earthquake hits Turkey-Syria border weeks after deadly tremors that killed 41,000 people and left millions without homesâ€¦  #Turkey #Syria #earthquake https://t.co/5pcSoIPdKU",1
+81,dataset,ðŸ””#Earthquake (#deprem) M3.7 occurred 12 km W of #Antioch (#Turkey) 12 min ago (local time 21:41:18). More info at: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/LXl4wZwTEl ðŸ–¥https://t.co/EkUwggA9cO https://t.co/g2N1VpsByZ,2
+82,dataset,#Earthquake 12 km W of #Antioch (#Turkey) 23 min ago (local time 21:30:51). Updated map - Colored dots represent local shaking &amp; damage level reported by eyewitnesses. Share your experience via: ðŸ“±https://t.co/LBaVNedgF9 ðŸŒhttps://t.co/8eYXJqSVmf https://t.co/kIOaUPwD91,1
+83,dataset,More buildings collapse in #Syria after new magnitude 6.4-#earthquake hit #Hatay province in #Turkey https://t.co/tZsBywzpDQ,1
+84,dataset,"Two #earthquakes jolted TÃ¼rkiyeâ€™s southernmost Hatay province on Monday, just two weeks after major quakes hit the region, the countryâ€™s disaster management agency said.  #TurkeyEarthquake #Turkey #earthquake https://t.co/NGAvBc5ru0",1
