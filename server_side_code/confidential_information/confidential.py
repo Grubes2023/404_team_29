@@ -57,18 +57,19 @@ closeness = ['near', 'close to', 'by']
 
 location_zipcode = {'77840' : ['College Station', 'Bryan'],
                     '76020' : ['Azle', 'Springtown', 'Boyd', 'Reno'],
-                    '77843' : ['College Station', 'Bryan']}
+                    '77843' : ['College Station', 'Bryan'],
+                    '77845' : ['College Station']}
 
-zipcodes = ['77840', '77843', '76020']
+zipcodes = ['77840', '77845', '77843', '76020']
 
 
 def random_date(start, end):
   return start + timedelta(
       seconds=random.randint(0, int((end - start).total_seconds())))
 
-start = datetime(2023, 10, 21, 0, 0, 0, tzinfo=us_central_timezone)  # from  10/15/23
-end = datetime.now(tz=us_central_timezone)   # to today
-
+#start = datetime(2023, 10, 21, 0, 0, 0, tzinfo=us_central_timezone)  # from  10/15/23
+end = datetime.now(tz=us_central_timezone) - timedelta(days=1)   # to today
+start = end - timedelta(days=7)
 
 def create_history_file(number_of_tweets):
 
@@ -77,8 +78,6 @@ def create_history_file(number_of_tweets):
     threat_tweet =  f'There is {choice(threats)} {choice(closeness)} {choice(places)}.'
     tweet_time = random_date(start, end)
     my_history = {0 : [tweet_time.strftime('%m/%d/%Y, %H:%M:%S'), str(choice(["Moderate", 'Immediate'])), threat_tweet, loc + ", TX",  zipcode]}
-    #print(f"Length of my History file : {len(my_history)}")
-    #write_to_file(my_history, twitter_history_file)
 
     while len(my_history) < number_of_tweets:
         #time.sleep(4)
@@ -91,15 +90,14 @@ def create_history_file(number_of_tweets):
     write_to_file(my_history, twitter_history_file)
 
 
-#create_history_file(30)
-
 
 with open(twitter_history_file, 'r') as file:
     history_information = json.load(file)
 
 
 
-
+if __name__ == '__main__':
+    create_history_file(30)
 
 
     
