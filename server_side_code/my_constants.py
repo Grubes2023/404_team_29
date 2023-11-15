@@ -5,9 +5,9 @@ from import_file import getcwd
 
 MY_WORKING_DIRECTORY = getcwd()
 
-BASE_MODEL_VERSION = '0.8'
+BASE_MODEL_VERSION = '1.2_beta'
 MY_RANDOM_STATE = 42
-MIN_CONFIDENCE_LEVEL = 50 #percent   defines what is sent onward
+MIN_CONFIDENCE_LEVEL = 70 #percent   defines what is sent onward
 
 # parameters for tokenizer and embedding layer
 VOCAB_SIZE = 6400
@@ -26,7 +26,7 @@ DROPOUT_CHANCE = 0.1
 NUM_EPOCHS = 40
 EPOCH_TO_CHECK_OVERFITTING = 7
 PATIENCE = 2
-BATCH_SIZE = 64 # 128 if on a GPU
+BATCH_SIZE = 128 # 128 if on a GPU
 VAL_SIZE = 0.05
 VERBOSE_TRAINING = 1
 

@@ -65,7 +65,7 @@ def preprocess(dataframe):
     dataframe.tweet = dataframe['tweet'].apply(data_processing)
     # get rid of any duplicate tweets and save as itself
     dataframe = dataframe.drop_duplicates('tweet')
-    # return dataframe
+    return dataframe
 
 def load_model_and_tok(model_version):
     ### loading the model ###
@@ -84,12 +84,15 @@ def load_model_and_tok(model_version):
     return loaded_model, loaded_tok
 
 
+model, tok = load_model_and_tok(model_version='1.1_beta')
+
+
 ###   Predictions   ###
 
 ## defining a function to make a prediction
 ## input is a single tweet
 ### returns a list of the format [category_label, confidence_as_float_percentage]
-def make_single_pred(inp_tweet, model_v='0.8_' + 'charlie'):
+def make_single_pred(inp_tweet):
 
     #####################
     ### PREPROCESSING ###
@@ -100,7 +103,7 @@ def make_single_pred(inp_tweet, model_v='0.8_' + 'charlie'):
     ################################
     ### LOAD MODEL and TOKENIZER ###
     ################################
-    model, tok = load_model_and_tok(model_version=model_v)
+    #model, tok = load_model_and_tok(model_version=model_v)
 
     proc_tweet_seq = tok.texts_to_sequences([proc_tweet])
     tweet_matrix = pad_sequences(proc_tweet_seq, maxlen=MAX_LEN)
@@ -123,19 +126,18 @@ def make_single_pred(inp_tweet, model_v='0.8_' + 'charlie'):
 ## input is a list of tweets
 ### returns a list of the format [category_label, confidence_as_float_percentage]
 # [[loc, tweet, datetime, zipcode]]
-def make_batch_pred(inp_tweets, model_v='0.8_' + 'beta'):
+def make_batch_pred(inp_tweets):
     print('Making a batch prediction')
     tweets_df = pd.DataFrame(inp_tweets, columns =['location', 'tweet','time', 'zipcode'], dtype=object) 
     ################################
     ### LOAD MODEL and TOKENIZER ###
     ################################
-    model, tok = load_model_and_tok(model_version=model_v)
+    #model, tok = load_model_and_tok(model_version=model_v)
     
     #####################
     ### PREPROCESSING ###
     #####################
-
-    preprocess(tweets_df)
+    tweets_df = preprocess(tweets_df)
     # lemmatize all the tweets
     tweets_df.tweet = tweets_df['tweet'].apply(lambda x: lemmatizing(x))    # apply lemmatizer
         
@@ -156,10 +158,8 @@ def make_batch_pred(inp_tweets, model_v='0.8_' + 'beta'):
         passed_on.append([prediction, confidence])
         ic([prediction, confidence, tweets_df['tweet'][i]])
 
-        
-
     ##############################
-    ### PARSING THE PREDICTION ###
+    ### Passing THE PREDICTION ###
     ##############################
     return passed_on
 

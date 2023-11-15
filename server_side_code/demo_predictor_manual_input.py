@@ -2,16 +2,10 @@
 from import_file import *
 
 # make sure the program is at least decently fast
-from timeit import default_timer as timer
+# from timeit import default_timer as timer
 
-from icecream import ic
+#from icecream import ic
 
-# notes from manual inputs
-'''
-More time-based examples (of no concern category)
-more painting/photography examples (if no concern category)
-more snow examples (right now it assumes category 1/2)
-'''
 
 
 # tweet will be passed in the form of [ [loc, tweet, datetime, zipcode] , [loc, tweet, datetime, zipcode]]

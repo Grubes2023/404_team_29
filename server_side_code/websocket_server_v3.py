@@ -18,7 +18,7 @@ from demo_predictor_manual_input import make_prediction
 from icecream import ic
 
 FAKE_TWITTER_HASHWORD = 'ea0d3e1e7cd045772170ece99e9db0ebd701f9ad72c8bdb43c513cea14953660'
-FAKE_TWITTER_HASHWORD_2 = 'this is fake twitter connection'
+#FAKE_TWITTER_HASHWORD = 'this is fake twitter connection'
 
 fake_twitter_results = {}
 
@@ -138,8 +138,8 @@ async def run_parser_and_model(zipcode):
 
     # validation statistics
     print('Statistics')
-    print(f'Parser Run Time : {parser_end_time - parser_start_time} sec') 
-    print(f'Model Run Time : {model_end_time - model_start_time} sec')
+    print(f'Parser Run Time : {format(parser_end_time - parser_start_time, ".3g")} sec') 
+    print(f'Model Run Time : {format(model_end_time - model_start_time, ".3g")} sec')
     
     return return_list
 
@@ -316,7 +316,7 @@ async def main(websocket, path):
 
     # normal operations
     # fake twitter initial message is SHA-256(Fake Twitter Connection) to guarrentee no accidental confusion
-    if FAKE_TWITTER_HASHWORD_2 not in message.lower():
+    if FAKE_TWITTER_HASHWORD not in message.lower():
         username, zipcode, command = message.split(':')
 
         #print(f'New Connection established with {username}')
@@ -338,7 +338,7 @@ async def main(websocket, path):
         await handle_client(websocket, path)
     
     # this is a fake twitter
-    elif FAKE_TWITTER_HASHWORD_2 in message.lower():
+    elif FAKE_TWITTER_HASHWORD in message.lower():
         fake_twitter_connection_info['Connection'] = websocket
         print('\n\nFake twitter connected\n\n')
         await handle_client(websocket, path)
@@ -353,15 +353,14 @@ async def periodic_updates():
         #ic(fake_twitter_connection_info)
         if fake_twitter_connection_info['Connection'] != None:
             await get_zipcode_history(None, str(77840))
-            #twitter_websocket = fake_twitter_connection_info['Connection']
-            #await twitter_websocket.send('Search Zipcode: 77840')
         else:
             print('No Twitter')
 
   
 # this is the main program
-print(f'\nServer info :   ws://{host}:{port}\n')
-start_server = websockets.serve(main, host , port)
-asyncio.get_event_loop().run_until_complete(start_server)
-#asyncio.get_event_loop().create_task(periodic_updates())           # only for initial testing of twitter parser
-asyncio.get_event_loop().run_forever()
+if __name__ == '__main__':
+    print(f'\nServer info :   ws://{host}:{port}\n')
+    start_server = websockets.serve(main, host , port)
+    asyncio.get_event_loop().run_until_complete(start_server)
+    #asyncio.get_event_loop().create_task(periodic_updates())           # only for initial testing of twitter parser
+    asyncio.get_event_loop().run_forever()

@@ -5,7 +5,7 @@ from import_file import *   # imports all external libraries
 tweet_df = pd.read_csv('disaster_training.csv')
 
 # gets rid of ...  websites, duplicates, other stuff
-preprocess(tweet_df)
+tweet_df = preprocess(tweet_df)
 
 # lemmatize all the tweets
 tweet_df.tweet = tweet_df['tweet'].apply(lambda x: lemmatizing(x))    # apply lemmatizer
@@ -50,7 +50,7 @@ model.compile(loss=CategoricalCrossentropy(), optimizer=Adam(), metrics=['accura
 # callback to stop training if starting to overtrain
 ES_callback = EarlyStopping(monitor='loss', min_delta=0.005, 
                             start_from_epoch=EPOCH_TO_CHECK_OVERFITTING,
-                            mode='min', 
+                            mode='auto', 
                             restore_best_weights=True, 
                             patience=PATIENCE)
 
@@ -65,6 +65,6 @@ hist = model.fit(sequences_matrix,Y_train,
 model.trainable = False
 
 # saving the model and tokenizer to call in the testing python file
-save_model_and_tok(model_version='0.8_beta', model=model, history=hist, token=tok)
+save_model_and_tok(model_version='1.2', model=model, history=hist, token=tok)
 
 print('Finished Training')
