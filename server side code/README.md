@@ -1,2 +1,2 @@
-#Code for the server code
+# Code for the server code
 Includes the code for the Machine Learning Model and the Server
