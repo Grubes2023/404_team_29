@@ -9,4 +9,4 @@ Due to the folder structures of the app and website, it is more convenient to ha
 The Github Link to Monica's Companion App - https://github.com/monica-147/Companion-Application.git
 
 ## Companion Website
-The Github Link to Patrick's Companion Website - ADD_A_URL_HERE
+The Github Link to Patrick's Companion Website - https://github.com/patrickmartin6/Capstone.git
